@@ -23,9 +23,9 @@
             </div>
             <div class="right-header">
                 <h1 class="name">
-                    Hi, I'm <span>Ajithabh Krishna.</span>
+                    Hi, I'm   <span>A</span><span>j</span><span>i</span><span>t</span><span>h</span><span>a</span><span>b</span><span>h</span><span> </span><span>K</span><span>r</span><span>i</span><span>s</span><span>h</span><span>n</span><span>a</span>.
                     <br>Designer, Developer
-                </h1>
+                  </h1>
                 <p>
                     I'm a Designer and also a Developer. An enthusiastic person with highly motivated and leadership skills pursuing Bachelors of Technology in Information Technology. Eager to learn new technologies and methodologies. 
                 </p>
@@ -55,7 +55,8 @@
                 <div class="right-about">
                     <div class="about-item">
                         <div class="abt-text">
-                            <p class="large-text">4+</p>
+                            
+                            <p class="large-text" >4+</p>
                             <p class="small-text">Projects <br /> Completed</p>
                         </div>
                     </div>
@@ -115,6 +116,15 @@
                             <p class="prog-text">90%</p>
                             <div class="progress">
                                 <span class="react"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">AI & ML</p>
+                        <div class="progress-con">
+                            <p class="prog-text">20%</p>
+                            <div class="progress">
+                                <span class="AI"></span>
                             </div>
                         </div>
                     </div>
@@ -455,6 +465,32 @@
                 </div>
                 <div class="portfolio-item">
                     <div class="image">
+                        <img src="Posters Done/12.jpeg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>View in Drive</h3>
+                        <div class="icons">
+                            <a href="Posters Done/12.jpeg" data-lightbox="models" data-title="Image Updates" class="icon">
+                                <i class="fa fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="Posters Done/biweek.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>View in Drive</h3>
+                        <div class="icons">
+                            <a href="Posters Done/biweek.png" data-lightbox="models" data-title="Image Updates" class="icon">
+                                <i class="fa fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
                         <img src="Posters Done/eclipsecsoon.jpg" alt="">
                     </div>
                     <div class="hover-items">
@@ -712,6 +748,7 @@
         <div class="control active-btn" data-id="home" >
             <i class="fas fa-home"></i>
         </div>
+        
         <div class="control" data-id="about">
             <i class="fas fa-user"></i>
         </div>
@@ -720,14 +757,15 @@
         </div>
         
         <div class="control" data-id="Newsletters">
-            <i class="fas fa-newspaper"></i>
+            <i class="fas fa-book"></i>
         </div>
-        <div class="control" data-id="projects">
-            <i class="far fa-folder-open"></i>
+        <div class="control" data-id="projects" onclick="toggleEnvelopeIcon(this)">
+            <i class="fas fa-code" aria-hidden="true"></i>
         </div>
-        <div class="control" data-id="contact">
-            <i class="fas fa-envelope-open"></i>
+        <div class="control" data-id="contact" onclick="toggleEnvelopeIcon(this)">
+            <i id="envelope-icon" class="fas fa-envelope-open-text"></i>
         </div>
+        
     </div>
     <div class="theme-btn">
         <i class="fas fa-adjust"></i>
